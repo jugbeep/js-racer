@@ -1,10 +1,23 @@
+body {
+	position: relative;
+}
 #zomb1 {
 	height: 100px;
 	width: 100px;
 	background-color: blue;
+	position: absolute;
+
 }
 #zomb2 {
 	height: 100px;
 	width: 100px;
 	background-color: red;
+	position: absolute;
+
+	
+
+}
+.movePlayer1 {
+	transform: translate(10px);
+	background-color: pink;
 }
