@@ -10,22 +10,34 @@ body {
 	height: auto;
 }
 #zomb1 {
-	height: 100px;
-	width: 100px;
-	background-color: blue;
 	position: absolute;
-
+	width: 200px;
+	height: 312px;
+	background-image: url("zomb1.png");
+	animation: play 1s steps(10) infinite;
+	animation-direction: ;
+	transform: scaleX(-1);
+}
+@keyframes play {
+   100% { background-position: -2000px; }
 }
 #zomb2 {
-	height: 100px;
-	width: 100px;
-	background-color: red;
 	position: absolute;
-
-	
+	width: 200px;
+	height: 312px;
+	background-image: url("zomb2.png");
+	animation: play 1s steps(10) infinite;
+	animation-direction: ;
+	transform: scaleX(-1);
+}
+@keyframes play {
+   100% { background-position: -2000px; }
 
 }
 .movePlayer1 {
 	transform: translate(10px);
 	background-color: pink;
 }
+
+
+
