@@ -1,5 +1,7 @@
+
 body {
-	size: 100%;
+	width: 100%
+	height: auto;
 	position: relative;
 	background-image: url('https://s-media-cache-ak0.pinimg.com/originals/af/fa/96/affa96e61b7c2351638430b71737814e.jpg');
 	background-repeat: no-repeat;
@@ -9,8 +11,15 @@ body {
 	width: 100%;
 	height: auto;
 }
+h1 {
+	font-size: 4em;
+	color: #8A0707;
+	font-family: 'Creepster';
+	text-align: center;
+}
 #zomb1 {
 	position: absolute;
+	top: 15vh;
 	width: 200px;
 	height: 312px;
 	background-image: url("zomb1.png");
@@ -23,6 +32,7 @@ body {
 }
 #zomb2 {
 	position: absolute;
+	top: 20vh;
 	width: 200px;
 	height: 312px;
 	background-image: url("zomb2.png");
@@ -37,6 +47,17 @@ body {
 .movePlayer1 {
 	transform: translate(10px);
 	background-color: pink;
+}
+#reload {
+	border-radius: 5px;
+	border: 0px;
+	background-color: #8A0707;
+	font-family: 'Creepster';
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 45%;
+	right: 45%;
 }
 
 
