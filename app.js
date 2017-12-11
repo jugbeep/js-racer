@@ -53,6 +53,9 @@ function movePlayer2(j){
 movePlayer2();
 
 
+  
+ 
+
 
 
 

@@ -1,4 +1,13 @@
-
+html {
+	height: 100vh;
+	width: 100vw;
+}
+p1 {
+	font-size: 4em;
+	color: #8A0707;
+	font-family: 'Creepster';
+	text-align: center;
+}
 body {
 	text-align: center;
 	width: 100vh%
@@ -11,6 +20,7 @@ body {
 .container {
 	width: 100%;
 	height: auto;
+	max-width: 
 }
 h1 {
 	font-size: 4em;
@@ -20,20 +30,21 @@ h1 {
 }
 #zomb1 {
 	position: absolute;
-	top: 15vh;
+	top: 35vh;
 	width: 200px;
 	height: 312px;
 	background-image: url("zomb1.png");
 	animation: play 1s steps(10) infinite;
 	animation-direction: ;
 	transform: scaleX(-1);
+	margin-left: 1em;
 }
 @keyframes play {
    100% { background-position: -2000px; }
 }
 #zomb2 {
 	position: absolute;
-	top: 20vh;
+	top: 37vh;
 	width: 200px;
 	height: 312px;
 	background-image: url("zomb2.png");
@@ -62,7 +73,7 @@ button {
 	font-size: 2em;
 	padding: .15em;
 	position: relative;
-	margin: .5em;
+	margin: .25em;
 }
 .directions {
 	font-size: 1em;
@@ -72,12 +83,12 @@ button {
 	position: absolute;
 	height: 30%;
 	width: 30%;
-	bottom: 0;
-	top: 20vh;
 	z-index: 0;
 	left: 35%;
 	right: 40%;
+	top: 190%
 }
+
 a {
 	color: inherit;
 	text-decoration: none;
