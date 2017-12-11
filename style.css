@@ -1,6 +1,7 @@
 
 body {
-	width: 100%
+	text-align: center;
+	width: 100vh%
 	height: auto;
 	position: relative;
 	background-image: url('https://s-media-cache-ak0.pinimg.com/originals/af/fa/96/affa96e61b7c2351638430b71737814e.jpg');
@@ -48,17 +49,38 @@ h1 {
 	transform: translate(10px);
 	background-color: pink;
 }
-#reload {
+.buttonBox {
+	text-align: center;
+
+}
+button {
 	border-radius: 5px;
 	border: 0px;
-	background-color: #8A0707;
+	background-color: black;
 	font-family: 'Creepster';
-	text-align: center;
-	position: fixed;
-	bottom: 0;
-	left: 45%;
-	right: 45%;
+	color: #8A0707;
+	font-size: 2em;
+	padding: .15em;
+	position: relative;
+	margin: .5em;
 }
-
+.directions {
+	font-size: 1em;
+	margin: 1em;
+}
+.cutout {
+	position: absolute;
+	height: 30%;
+	width: 30%;
+	bottom: 0;
+	top: 20vh;
+	z-index: 0;
+	left: 35%;
+	right: 40%;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
 
 
